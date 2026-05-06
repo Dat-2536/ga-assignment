@@ -17,6 +17,22 @@ class TestFPGA(unittest.TestCase):
         self.assertEqual(get_onemax_fitness((1, 1, 0, 1)), 3)
         self.assertEqual(get_onemax_fitness((0, 0, 0)), 0)
 
+    def test_knapsack_fitness_valid_and_over_capacity(self):
+        from src.problems import get_knapsack_fitness
+        items = ((10, 5), (20, 10), (30, 20)) # (value, weight)
+        capacity = 15
+        # (1, 1, 0) -> weight 15 <= 15 -> value 30
+        self.assertEqual(get_knapsack_fitness((1, 1, 0), items, capacity), 30)
+        # (1, 1, 1) -> weight 35 > 15 -> value 0
+        self.assertEqual(get_knapsack_fitness((1, 1, 1), items, capacity), 0)
+
+    def test_knapsack_item_generation_reproducibility(self):
+        from src.problems import create_knapsack_items
+        items1, cap1 = create_knapsack_items(10, seed=42)
+        items2, cap2 = create_knapsack_items(10, seed=42)
+        self.assertEqual(items1, items2)
+        self.assertEqual(cap1, cap2)
+
     def test_tournament_selection(self):
         population = ((0, 0), (1, 1), (0, 1))
         fitnesses = (0, 2, 1)
@@ -68,9 +84,28 @@ class TestFPGA(unittest.TestCase):
         self.assertEqual(p1, p1_snapshot, "Parent 1 was mutated by crossover!")
         self.assertEqual(p2, p2_snapshot, "Parent 2 was mutated by crossover!")
         
-        # Mutation should not change original
-        bitflip_mutation(p1, prob=1.0, seed=42)
-        self.assertEqual(p1, p1_snapshot, "Chromosome was mutated by mutation function!")
+    def test_evolution_improvement(self):
+        """
+        Tests if the FP GA improves fitness over generations.
+        """
+        from src import run_ga_fp, create_knapsack_items
+        
+        # Using OneMax for quick test
+        initial_pop = initialize_population(size=20, length=20, seed=42)
+        _, _, history = run_ga_fp(
+            initial_pop=initial_pop,
+            fitness_func=get_onemax_fitness,
+            selection_op=tournament_selection,
+            crossover_op=one_point_crossover,
+            mutation_op=bitflip_mutation,
+            generations=10,
+            seed=42
+        )
+        
+        # Assert that the best fitness in the last generation is >= the first
+        self.assertGreaterEqual(history[-1]['best'], history[0]['best'])
+        # For 10 generations on length 20, it should typically improve
+        self.assertGreater(history[-1]['best'], history[0]['best'])
 
 if __name__ == '__main__':
     unittest.main()

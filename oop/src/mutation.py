@@ -24,7 +24,6 @@ class BitFlipMutation(MutationStrategy):
         genes = chromosome.genes
         length = len(genes)
         
-        # If probability is not set, use 1/L
         prob = self._gene_mutation_prob if self._gene_mutation_prob is not None else 1.0 / length
         
         mutated_genes = []

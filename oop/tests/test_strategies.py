@@ -17,10 +17,9 @@ class TestStrategies(unittest.TestCase):
     def test_chromosome_encapsulation(self):
         genes = [1, 0, 1]
         c = Chromosome(genes)
-        # Check if genes property returns a copy
         genes_copy = c.genes
         genes_copy[0] = 0
-        self.assertEqual(c.genes[0], 1) # Original should not change
+        self.assertEqual(c.genes[0], 1)
 
     def test_tournament_selection(self):
         c1 = Chromosome([1])
@@ -33,7 +32,6 @@ class TestStrategies(unittest.TestCase):
         population = [c1, c2, c3]
         selection = TournamentSelection(k=3)
         
-        # In a tournament of 3 with these 3, c2 must win
         selected = selection.select(population)
         self.assertEqual(selected.fitness, 50)
 
@@ -41,23 +39,19 @@ class TestStrategies(unittest.TestCase):
         p1 = Chromosome([0, 0, 0, 0, 0])
         p2 = Chromosome([1, 1, 1, 1, 1])
         
-        # Force crossover with probability 1.0
         crossover = OnePointCrossover(probability=1.0)
         child1, child2 = crossover.crossover(p1, p2)
         
         self.assertEqual(len(child1), 5)
         self.assertEqual(len(child2), 5)
         
-        # Check if they are different from parents
         self.assertNotEqual(child1.genes, p1.genes)
         self.assertNotEqual(child1.genes, p2.genes)
         
-        # Total number of 1s in children should equal total 1s in parents (5)
         self.assertEqual(sum(child1.genes) + sum(child2.genes), 5)
 
     def test_bit_flip_mutation(self):
         c = Chromosome([0, 0, 0, 0, 0])
-        # Force mutation on every bit
         mutation = BitFlipMutation(gene_mutation_prob=1.0)
         mutated = mutation.mutate(c)
         

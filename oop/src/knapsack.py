@@ -8,19 +8,15 @@ class Knapsack(Problem):
     """
     def __init__(self, n=100, capacity_ratio=0.4, seed=42):
         self.n = n
-        # Use a local random instance to not affect global state if needed, 
-        # but here we follow the "seed chung là 42" requirement.
-        random.seed(seed)
+        rng = random.Random(seed)
         
-        # Initialize 100 items with random values and weights
         self.items = []
         for _ in range(n):
             self.items.append({
-                'value': random.randint(1, 100),
-                'weight': random.randint(1, 50)
+                'value': rng.randint(1, 100),
+                'weight': rng.randint(1, 50)
             })
             
-        # Capacity is 40% of total weight
         total_weight = sum(item['weight'] for item in self.items)
         self.capacity = total_weight * capacity_ratio
 

@@ -20,7 +20,6 @@ class GeneticAlgorithm:
         """
         start_time = time.time()
         
-        # Initialize population
         population = Population(
             self._population_size, 
             self._problem.get_chromosome_length(), 
@@ -30,7 +29,6 @@ class GeneticAlgorithm:
         self._history = []
         
         for gen in range(generations):
-            # Record current generation stats
             best_ind = population.get_best()
             avg_fit = population.get_average_fitness()
             self._history.append({
@@ -39,36 +37,27 @@ class GeneticAlgorithm:
                 "average": avg_fit
             })
             
-            # Sort population for elitism (best first)
             current_individuals = sorted(population.individuals, key=lambda x: x.fitness, reverse=True)
             
-            # 1. Elitism: Directly pass the best e individuals to the next generation
             next_generation = current_individuals[:self._elitism_count]
             
-            # 2. Reproduction: Fill the rest of the population
             while len(next_generation) < self._population_size:
-                # Selection
                 parent1 = self._selection.select(current_individuals)
                 parent2 = self._selection.select(current_individuals)
                 
-                # Crossover
                 child1, child2 = self._crossover.crossover(parent1, parent2)
                 
-                # Mutation
                 child1 = self._mutation.mutate(child1)
                 child2 = self._mutation.mutate(child2)
                 
-                # Evaluation
                 child1.fitness = self._problem.evaluate(child1.genes)
                 child2.fitness = self._problem.evaluate(child2.genes)
                 
-                # Add to next generation
                 next_generation.append(child1)
                 if len(next_generation) < self._population_size:
                     next_generation.append(child2)
             
-            # Update population
-            population.individuals = next_generation
+            population.replace(next_generation)
             
         runtime = time.time() - start_time
         final_best = population.get_best()

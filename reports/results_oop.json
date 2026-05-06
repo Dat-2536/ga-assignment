@@ -1,7 +1,7 @@
 {
     "onemax": {
         "best_fitness": 100,
-        "runtime": 1.1382877826690674,
+        "runtime": 0.662186861038208,
         "history": [
             {
                 "generation": 0,
@@ -10,863 +10,863 @@
             },
             {
                 "generation": 1,
-                "best": 64,
-                "average": 54.05
+                "best": 63,
+                "average": 54.14
             },
             {
                 "generation": 2,
-                "best": 65,
+                "best": 66,
                 "average": 57.49
             },
             {
                 "generation": 3,
                 "best": 66,
-                "average": 59.68
+                "average": 59.96
             },
             {
                 "generation": 4,
                 "best": 69,
-                "average": 61.99
+                "average": 61.96
             },
             {
                 "generation": 5,
-                "best": 69,
-                "average": 64.31
+                "best": 70,
+                "average": 64.15
             },
             {
                 "generation": 6,
-                "best": 76,
-                "average": 66.79
+                "best": 70,
+                "average": 66.25
             },
             {
                 "generation": 7,
-                "best": 76,
-                "average": 68.62
+                "best": 73,
+                "average": 67.97
             },
             {
                 "generation": 8,
-                "best": 76,
-                "average": 70.74
+                "best": 74,
+                "average": 68.84
             },
             {
                 "generation": 9,
-                "best": 77,
-                "average": 72.45
+                "best": 75,
+                "average": 69.88
             },
             {
                 "generation": 10,
-                "best": 79,
-                "average": 74.02
+                "best": 78,
+                "average": 71.64
             },
             {
                 "generation": 11,
-                "best": 80,
-                "average": 75.49
+                "best": 79,
+                "average": 73.32
             },
             {
                 "generation": 12,
-                "best": 81,
-                "average": 77.16
+                "best": 82,
+                "average": 75.31
             },
             {
                 "generation": 13,
-                "best": 82,
-                "average": 78.08
+                "best": 85,
+                "average": 76.79
             },
             {
                 "generation": 14,
-                "best": 83,
-                "average": 79.08
+                "best": 85,
+                "average": 79.03
             },
             {
                 "generation": 15,
-                "best": 85,
-                "average": 79.98
+                "best": 88,
+                "average": 80.11
             },
             {
                 "generation": 16,
-                "best": 86,
-                "average": 80.82
+                "best": 89,
+                "average": 81.6
             },
             {
                 "generation": 17,
-                "best": 87,
-                "average": 82.18
+                "best": 89,
+                "average": 83.6
             },
             {
                 "generation": 18,
                 "best": 89,
-                "average": 83.41
+                "average": 85.12
             },
             {
                 "generation": 19,
                 "best": 90,
-                "average": 84.52
+                "average": 86.17
             },
             {
                 "generation": 20,
                 "best": 90,
-                "average": 85.57
+                "average": 86.67
             },
             {
                 "generation": 21,
-                "best": 90,
-                "average": 86.74
+                "best": 91,
+                "average": 86.92
             },
             {
                 "generation": 22,
                 "best": 91,
-                "average": 87.45
+                "average": 87.65
             },
             {
                 "generation": 23,
-                "best": 92,
-                "average": 88.0
+                "best": 91,
+                "average": 88.05
             },
             {
                 "generation": 24,
-                "best": 94,
-                "average": 88.69
+                "best": 92,
+                "average": 88.55
             },
             {
                 "generation": 25,
                 "best": 94,
-                "average": 89.62
+                "average": 89.22
             },
             {
                 "generation": 26,
                 "best": 94,
-                "average": 90.65
+                "average": 90.05
             },
             {
                 "generation": 27,
-                "best": 95,
-                "average": 91.42
+                "best": 96,
+                "average": 90.65
             },
             {
                 "generation": 28,
-                "best": 95,
-                "average": 91.74
+                "best": 96,
+                "average": 91.37
             },
             {
                 "generation": 29,
-                "best": 95,
-                "average": 92.21
+                "best": 97,
+                "average": 92.33
             },
             {
                 "generation": 30,
-                "best": 96,
-                "average": 92.59
+                "best": 97,
+                "average": 92.96
             },
             {
                 "generation": 31,
                 "best": 97,
-                "average": 93.13
+                "average": 94.04
             },
             {
                 "generation": 32,
                 "best": 97,
-                "average": 93.51
+                "average": 94.43
             },
             {
                 "generation": 33,
                 "best": 98,
-                "average": 94.11
+                "average": 94.97
             },
             {
                 "generation": 34,
-                "best": 98,
-                "average": 94.5
+                "best": 99,
+                "average": 95.23
             },
             {
                 "generation": 35,
                 "best": 99,
-                "average": 94.95
+                "average": 95.48
             },
             {
                 "generation": 36,
                 "best": 99,
-                "average": 95.5
+                "average": 95.94
             },
             {
                 "generation": 37,
                 "best": 99,
-                "average": 96.04
+                "average": 96.17
             },
             {
                 "generation": 38,
-                "best": 100,
-                "average": 96.44
+                "best": 99,
+                "average": 96.28
             },
             {
                 "generation": 39,
-                "best": 100,
-                "average": 97.0
+                "best": 99,
+                "average": 96.66
             },
             {
                 "generation": 40,
                 "best": 100,
-                "average": 97.32
+                "average": 96.98
             },
             {
                 "generation": 41,
                 "best": 100,
-                "average": 97.57
+                "average": 97.2
             },
             {
                 "generation": 42,
                 "best": 100,
-                "average": 97.77
+                "average": 97.23
             },
             {
                 "generation": 43,
                 "best": 100,
-                "average": 97.96
+                "average": 97.79
             },
             {
                 "generation": 44,
                 "best": 100,
-                "average": 98.03
+                "average": 97.95
             },
             {
                 "generation": 45,
                 "best": 100,
-                "average": 98.12
+                "average": 98.06
             },
             {
                 "generation": 46,
                 "best": 100,
-                "average": 98.1
+                "average": 98.04
             },
             {
                 "generation": 47,
                 "best": 100,
-                "average": 98.23
+                "average": 97.78
             },
             {
                 "generation": 48,
                 "best": 100,
-                "average": 98.36
+                "average": 97.85
             },
             {
                 "generation": 49,
                 "best": 100,
-                "average": 98.52
+                "average": 98.01
             },
             {
                 "generation": 50,
                 "best": 100,
-                "average": 98.33
+                "average": 98.09
             },
             {
                 "generation": 51,
                 "best": 100,
-                "average": 98.13
+                "average": 98.11
             },
             {
                 "generation": 52,
                 "best": 100,
-                "average": 98.04
+                "average": 98.14
             },
             {
                 "generation": 53,
                 "best": 100,
-                "average": 98.11
+                "average": 98.27
             },
             {
                 "generation": 54,
                 "best": 100,
-                "average": 98.21
+                "average": 98.24
             },
             {
                 "generation": 55,
                 "best": 100,
-                "average": 98.25
+                "average": 98.24
             },
             {
                 "generation": 56,
                 "best": 100,
-                "average": 98.43
+                "average": 98.22
             },
             {
                 "generation": 57,
                 "best": 100,
-                "average": 98.68
+                "average": 98.23
             },
             {
                 "generation": 58,
                 "best": 100,
-                "average": 98.65
+                "average": 98.12
             },
             {
                 "generation": 59,
                 "best": 100,
-                "average": 98.71
+                "average": 98.18
             },
             {
                 "generation": 60,
                 "best": 100,
-                "average": 98.43
+                "average": 98.17
             },
             {
                 "generation": 61,
                 "best": 100,
-                "average": 98.32
+                "average": 98.24
             },
             {
                 "generation": 62,
                 "best": 100,
-                "average": 98.21
+                "average": 98.43
             },
             {
                 "generation": 63,
                 "best": 100,
-                "average": 98.33
+                "average": 98.35
             },
             {
                 "generation": 64,
                 "best": 100,
-                "average": 98.23
+                "average": 98.31
             },
             {
                 "generation": 65,
                 "best": 100,
-                "average": 98.46
+                "average": 98.19
             },
             {
                 "generation": 66,
                 "best": 100,
-                "average": 98.38
+                "average": 98.2
             },
             {
                 "generation": 67,
                 "best": 100,
-                "average": 98.33
+                "average": 98.18
             },
             {
                 "generation": 68,
                 "best": 100,
-                "average": 98.45
+                "average": 98.4
             },
             {
                 "generation": 69,
                 "best": 100,
-                "average": 98.48
+                "average": 98.44
             },
             {
                 "generation": 70,
                 "best": 100,
-                "average": 98.48
+                "average": 98.6
             },
             {
                 "generation": 71,
                 "best": 100,
-                "average": 98.54
+                "average": 98.72
             },
             {
                 "generation": 72,
                 "best": 100,
-                "average": 98.49
+                "average": 98.67
             },
             {
                 "generation": 73,
                 "best": 100,
-                "average": 98.58
+                "average": 98.75
             },
             {
                 "generation": 74,
                 "best": 100,
-                "average": 98.57
+                "average": 98.59
             },
             {
                 "generation": 75,
                 "best": 100,
-                "average": 98.36
+                "average": 98.57
             },
             {
                 "generation": 76,
                 "best": 100,
-                "average": 98.34
+                "average": 98.45
             },
             {
                 "generation": 77,
                 "best": 100,
-                "average": 98.33
+                "average": 98.47
             },
             {
                 "generation": 78,
                 "best": 100,
-                "average": 98.19
+                "average": 98.45
             },
             {
                 "generation": 79,
                 "best": 100,
-                "average": 98.18
+                "average": 98.53
             },
             {
                 "generation": 80,
                 "best": 100,
-                "average": 98.23
+                "average": 98.69
             },
             {
                 "generation": 81,
                 "best": 100,
-                "average": 98.24
+                "average": 98.61
             },
             {
                 "generation": 82,
                 "best": 100,
-                "average": 98.21
+                "average": 98.58
             },
             {
                 "generation": 83,
                 "best": 100,
-                "average": 98.15
+                "average": 98.24
             },
             {
                 "generation": 84,
                 "best": 100,
-                "average": 98.21
+                "average": 98.47
             },
             {
                 "generation": 85,
                 "best": 100,
-                "average": 98.43
+                "average": 98.56
             },
             {
                 "generation": 86,
                 "best": 100,
-                "average": 98.59
+                "average": 98.63
             },
             {
                 "generation": 87,
                 "best": 100,
-                "average": 98.54
+                "average": 98.56
             },
             {
                 "generation": 88,
                 "best": 100,
-                "average": 98.47
+                "average": 98.33
             },
             {
                 "generation": 89,
                 "best": 100,
-                "average": 98.38
+                "average": 98.06
             },
             {
                 "generation": 90,
                 "best": 100,
-                "average": 98.41
+                "average": 97.93
             },
             {
                 "generation": 91,
                 "best": 100,
-                "average": 98.39
+                "average": 98.11
             },
             {
                 "generation": 92,
                 "best": 100,
-                "average": 98.45
+                "average": 98.12
             },
             {
                 "generation": 93,
                 "best": 100,
-                "average": 98.38
+                "average": 98.42
             },
             {
                 "generation": 94,
                 "best": 100,
-                "average": 98.42
+                "average": 98.48
             },
             {
                 "generation": 95,
                 "best": 100,
-                "average": 98.47
+                "average": 98.67
             },
             {
                 "generation": 96,
                 "best": 100,
-                "average": 98.7
+                "average": 98.62
             },
             {
                 "generation": 97,
                 "best": 100,
-                "average": 98.53
+                "average": 98.54
             },
             {
                 "generation": 98,
                 "best": 100,
-                "average": 98.49
+                "average": 98.48
             },
             {
                 "generation": 99,
                 "best": 100,
-                "average": 98.66
+                "average": 98.54
             },
             {
                 "generation": 100,
                 "best": 100,
-                "average": 98.56
+                "average": 98.55
             },
             {
                 "generation": 101,
                 "best": 100,
-                "average": 98.64
+                "average": 98.56
             },
             {
                 "generation": 102,
                 "best": 100,
-                "average": 98.42
+                "average": 98.6
             },
             {
                 "generation": 103,
                 "best": 100,
-                "average": 98.17
+                "average": 98.49
             },
             {
                 "generation": 104,
                 "best": 100,
-                "average": 98.27
+                "average": 98.47
             },
             {
                 "generation": 105,
                 "best": 100,
-                "average": 98.09
+                "average": 98.1
             },
             {
                 "generation": 106,
                 "best": 100,
-                "average": 98.15
+                "average": 98.16
             },
             {
                 "generation": 107,
                 "best": 100,
-                "average": 98.05
+                "average": 98.42
             },
             {
                 "generation": 108,
                 "best": 100,
-                "average": 97.91
+                "average": 98.3
             },
             {
                 "generation": 109,
                 "best": 100,
-                "average": 98.31
+                "average": 98.38
             },
             {
                 "generation": 110,
                 "best": 100,
-                "average": 98.44
+                "average": 98.47
             },
             {
                 "generation": 111,
                 "best": 100,
-                "average": 98.35
+                "average": 98.57
             },
             {
                 "generation": 112,
                 "best": 100,
-                "average": 98.55
+                "average": 98.38
             },
             {
                 "generation": 113,
                 "best": 100,
-                "average": 98.49
+                "average": 98.36
             },
             {
                 "generation": 114,
                 "best": 100,
-                "average": 98.41
+                "average": 98.37
             },
             {
                 "generation": 115,
                 "best": 100,
-                "average": 98.42
+                "average": 98.3
             },
             {
                 "generation": 116,
                 "best": 100,
-                "average": 98.27
+                "average": 98.36
             },
             {
                 "generation": 117,
                 "best": 100,
-                "average": 98.31
+                "average": 98.44
             },
             {
                 "generation": 118,
                 "best": 100,
-                "average": 98.5
+                "average": 98.64
             },
             {
                 "generation": 119,
                 "best": 100,
-                "average": 98.46
+                "average": 98.36
             },
             {
                 "generation": 120,
                 "best": 100,
-                "average": 98.52
+                "average": 98.33
             },
             {
                 "generation": 121,
                 "best": 100,
-                "average": 98.62
+                "average": 98.38
             },
             {
                 "generation": 122,
                 "best": 100,
-                "average": 98.44
+                "average": 98.39
             },
             {
                 "generation": 123,
                 "best": 100,
-                "average": 98.41
+                "average": 98.42
             },
             {
                 "generation": 124,
                 "best": 100,
-                "average": 98.36
+                "average": 98.53
             },
             {
                 "generation": 125,
                 "best": 100,
-                "average": 98.37
+                "average": 98.4
             },
             {
                 "generation": 126,
                 "best": 100,
-                "average": 98.48
+                "average": 98.53
             },
             {
                 "generation": 127,
                 "best": 100,
-                "average": 98.46
+                "average": 98.41
             },
             {
                 "generation": 128,
                 "best": 100,
-                "average": 98.52
+                "average": 98.4
             },
             {
                 "generation": 129,
                 "best": 100,
-                "average": 98.27
+                "average": 98.25
             },
             {
                 "generation": 130,
                 "best": 100,
-                "average": 98.39
+                "average": 98.34
             },
             {
                 "generation": 131,
                 "best": 100,
-                "average": 98.57
+                "average": 98.26
             },
             {
                 "generation": 132,
                 "best": 100,
-                "average": 98.56
+                "average": 98.15
             },
             {
                 "generation": 133,
                 "best": 100,
-                "average": 98.62
+                "average": 98.28
             },
             {
                 "generation": 134,
                 "best": 100,
-                "average": 98.71
+                "average": 98.35
             },
             {
                 "generation": 135,
                 "best": 100,
-                "average": 98.61
+                "average": 98.24
             },
             {
                 "generation": 136,
                 "best": 100,
-                "average": 98.44
+                "average": 98.08
             },
             {
                 "generation": 137,
                 "best": 100,
-                "average": 98.46
+                "average": 97.95
             },
             {
                 "generation": 138,
                 "best": 100,
-                "average": 98.58
+                "average": 98.12
             },
             {
                 "generation": 139,
                 "best": 100,
-                "average": 98.73
+                "average": 98.2
             },
             {
                 "generation": 140,
                 "best": 100,
-                "average": 98.71
+                "average": 98.38
             },
             {
                 "generation": 141,
                 "best": 100,
-                "average": 98.62
+                "average": 98.44
             },
             {
                 "generation": 142,
                 "best": 100,
-                "average": 98.63
+                "average": 98.29
             },
             {
                 "generation": 143,
                 "best": 100,
-                "average": 98.51
+                "average": 98.17
             },
             {
                 "generation": 144,
                 "best": 100,
-                "average": 98.51
+                "average": 98.27
             },
             {
                 "generation": 145,
                 "best": 100,
-                "average": 98.27
+                "average": 98.16
             },
             {
                 "generation": 146,
                 "best": 100,
-                "average": 98.43
+                "average": 98.24
             },
             {
                 "generation": 147,
                 "best": 100,
-                "average": 98.27
+                "average": 98.04
             },
             {
                 "generation": 148,
                 "best": 100,
-                "average": 98.15
+                "average": 98.31
             },
             {
                 "generation": 149,
                 "best": 100,
-                "average": 98.17
+                "average": 98.44
             },
             {
                 "generation": 150,
                 "best": 100,
-                "average": 98.03
+                "average": 98.54
             },
             {
                 "generation": 151,
                 "best": 100,
-                "average": 98.17
+                "average": 98.54
             },
             {
                 "generation": 152,
                 "best": 100,
-                "average": 98.29
+                "average": 98.57
             },
             {
                 "generation": 153,
                 "best": 100,
-                "average": 98.31
+                "average": 98.38
             },
             {
                 "generation": 154,
                 "best": 100,
-                "average": 98.43
+                "average": 98.25
             },
             {
                 "generation": 155,
                 "best": 100,
-                "average": 98.51
+                "average": 98.5
             },
             {
                 "generation": 156,
                 "best": 100,
-                "average": 98.24
+                "average": 98.35
             },
             {
                 "generation": 157,
                 "best": 100,
-                "average": 98.32
+                "average": 98.42
             },
             {
                 "generation": 158,
                 "best": 100,
-                "average": 98.26
+                "average": 98.42
             },
             {
                 "generation": 159,
                 "best": 100,
-                "average": 98.15
+                "average": 98.3
             },
             {
                 "generation": 160,
                 "best": 100,
-                "average": 98.33
+                "average": 98.4
             },
             {
                 "generation": 161,
                 "best": 100,
-                "average": 98.33
+                "average": 98.41
             },
             {
                 "generation": 162,
                 "best": 100,
-                "average": 98.33
+                "average": 98.35
             },
             {
                 "generation": 163,
                 "best": 100,
-                "average": 98.43
+                "average": 98.4
             },
             {
                 "generation": 164,
                 "best": 100,
-                "average": 98.44
+                "average": 98.33
             },
             {
                 "generation": 165,
                 "best": 100,
-                "average": 98.45
+                "average": 98.39
             },
             {
                 "generation": 166,
                 "best": 100,
-                "average": 98.46
+                "average": 98.39
             },
             {
                 "generation": 167,
                 "best": 100,
-                "average": 98.44
+                "average": 98.35
             },
             {
                 "generation": 168,
                 "best": 100,
-                "average": 98.46
+                "average": 98.32
             },
             {
                 "generation": 169,
                 "best": 100,
-                "average": 98.32
+                "average": 98.21
             },
             {
                 "generation": 170,
                 "best": 100,
-                "average": 98.4
+                "average": 98.29
             },
             {
                 "generation": 171,
                 "best": 100,
-                "average": 98.34
+                "average": 98.26
             },
             {
                 "generation": 172,
                 "best": 100,
-                "average": 98.36
+                "average": 98.33
             },
             {
                 "generation": 173,
@@ -876,47 +876,47 @@
             {
                 "generation": 174,
                 "best": 100,
-                "average": 98.25
+                "average": 98.22
             },
             {
                 "generation": 175,
                 "best": 100,
-                "average": 98.17
+                "average": 98.23
             },
             {
                 "generation": 176,
                 "best": 100,
-                "average": 98.12
+                "average": 98.17
             },
             {
                 "generation": 177,
                 "best": 100,
-                "average": 98.38
+                "average": 98.29
             },
             {
                 "generation": 178,
                 "best": 100,
-                "average": 98.41
+                "average": 98.27
             },
             {
                 "generation": 179,
                 "best": 100,
-                "average": 98.48
+                "average": 98.47
             },
             {
                 "generation": 180,
                 "best": 100,
-                "average": 98.76
+                "average": 98.71
             },
             {
                 "generation": 181,
                 "best": 100,
-                "average": 98.9
+                "average": 98.87
             },
             {
                 "generation": 182,
                 "best": 100,
-                "average": 98.74
+                "average": 98.77
             },
             {
                 "generation": 183,
@@ -926,22 +926,22 @@
             {
                 "generation": 184,
                 "best": 100,
-                "average": 98.53
+                "average": 98.55
             },
             {
                 "generation": 185,
                 "best": 100,
-                "average": 98.46
+                "average": 98.48
             },
             {
                 "generation": 186,
                 "best": 100,
-                "average": 98.44
+                "average": 98.52
             },
             {
                 "generation": 187,
                 "best": 100,
-                "average": 98.2
+                "average": 98.27
             },
             {
                 "generation": 188,
@@ -951,17 +951,17 @@
             {
                 "generation": 189,
                 "best": 100,
-                "average": 98.45
+                "average": 98.5
             },
             {
                 "generation": 190,
                 "best": 100,
-                "average": 98.58
+                "average": 98.6
             },
             {
                 "generation": 191,
                 "best": 100,
-                "average": 98.36
+                "average": 98.4
             },
             {
                 "generation": 192,
@@ -971,117 +971,117 @@
             {
                 "generation": 193,
                 "best": 100,
-                "average": 98.1
+                "average": 98.13
             },
             {
                 "generation": 194,
                 "best": 100,
-                "average": 98.16
+                "average": 98.1
             },
             {
                 "generation": 195,
                 "best": 100,
-                "average": 98.37
+                "average": 98.23
             },
             {
                 "generation": 196,
                 "best": 100,
-                "average": 98.43
+                "average": 98.4
             },
             {
                 "generation": 197,
                 "best": 100,
-                "average": 98.37
+                "average": 98.33
             },
             {
                 "generation": 198,
                 "best": 100,
-                "average": 98.29
+                "average": 98.24
             },
             {
                 "generation": 199,
                 "best": 100,
-                "average": 98.52
+                "average": 98.47
             },
             {
                 "generation": 200,
                 "best": 100,
-                "average": 98.27
+                "average": 98.34
             },
             {
                 "generation": 201,
                 "best": 100,
-                "average": 98.41
+                "average": 98.5
             },
             {
                 "generation": 202,
                 "best": 100,
-                "average": 98.46
+                "average": 98.49
             },
             {
                 "generation": 203,
                 "best": 100,
-                "average": 98.49
+                "average": 98.45
             },
             {
                 "generation": 204,
                 "best": 100,
-                "average": 98.51
+                "average": 98.54
             },
             {
                 "generation": 205,
                 "best": 100,
-                "average": 98.59
+                "average": 98.54
             },
             {
                 "generation": 206,
                 "best": 100,
-                "average": 98.44
+                "average": 98.4
             },
             {
                 "generation": 207,
                 "best": 100,
-                "average": 98.39
+                "average": 98.38
             },
             {
                 "generation": 208,
                 "best": 100,
-                "average": 98.54
+                "average": 98.57
             },
             {
                 "generation": 209,
                 "best": 100,
-                "average": 98.55
+                "average": 98.64
             },
             {
                 "generation": 210,
                 "best": 100,
-                "average": 98.3
+                "average": 98.25
             },
             {
                 "generation": 211,
                 "best": 100,
-                "average": 98.61
+                "average": 98.67
             },
             {
                 "generation": 212,
                 "best": 100,
-                "average": 98.45
+                "average": 98.47
             },
             {
                 "generation": 213,
                 "best": 100,
-                "average": 98.44
+                "average": 98.5
             },
             {
                 "generation": 214,
                 "best": 100,
-                "average": 98.47
+                "average": 98.5
             },
             {
                 "generation": 215,
                 "best": 100,
-                "average": 98.32
+                "average": 98.39
             },
             {
                 "generation": 216,
@@ -1091,77 +1091,77 @@
             {
                 "generation": 217,
                 "best": 100,
-                "average": 98.16
+                "average": 98.17
             },
             {
                 "generation": 218,
                 "best": 100,
-                "average": 98.37
+                "average": 98.35
             },
             {
                 "generation": 219,
                 "best": 100,
-                "average": 98.37
+                "average": 98.4
             },
             {
                 "generation": 220,
                 "best": 100,
-                "average": 98.33
+                "average": 98.35
             },
             {
                 "generation": 221,
                 "best": 100,
-                "average": 98.28
+                "average": 98.19
             },
             {
                 "generation": 222,
                 "best": 100,
-                "average": 98.14
+                "average": 98.1
             },
             {
                 "generation": 223,
                 "best": 100,
-                "average": 98.31
+                "average": 98.24
             },
             {
                 "generation": 224,
                 "best": 100,
-                "average": 98.5
+                "average": 98.48
             },
             {
                 "generation": 225,
                 "best": 100,
-                "average": 98.32
+                "average": 98.29
             },
             {
                 "generation": 226,
                 "best": 100,
-                "average": 98.4
+                "average": 98.48
             },
             {
                 "generation": 227,
                 "best": 100,
-                "average": 98.25
+                "average": 98.29
             },
             {
                 "generation": 228,
                 "best": 100,
-                "average": 98.39
+                "average": 98.36
             },
             {
                 "generation": 229,
                 "best": 100,
-                "average": 98.51
+                "average": 98.46
             },
             {
                 "generation": 230,
                 "best": 100,
-                "average": 98.37
+                "average": 98.39
             },
             {
                 "generation": 231,
                 "best": 100,
-                "average": 98.47
+                "average": 98.42
             },
             {
                 "generation": 232,
@@ -1171,217 +1171,217 @@
             {
                 "generation": 233,
                 "best": 100,
-                "average": 98.38
+                "average": 98.36
             },
             {
                 "generation": 234,
                 "best": 100,
-                "average": 98.41
+                "average": 98.29
             },
             {
                 "generation": 235,
                 "best": 100,
-                "average": 98.39
+                "average": 98.26
             },
             {
                 "generation": 236,
                 "best": 100,
-                "average": 98.59
+                "average": 98.48
             },
             {
                 "generation": 237,
                 "best": 100,
-                "average": 98.67
+                "average": 98.66
             },
             {
                 "generation": 238,
                 "best": 100,
-                "average": 98.38
+                "average": 98.42
             },
             {
                 "generation": 239,
                 "best": 100,
-                "average": 98.17
+                "average": 98.24
             },
             {
                 "generation": 240,
                 "best": 100,
-                "average": 98.49
+                "average": 98.6
             },
             {
                 "generation": 241,
                 "best": 100,
-                "average": 98.32
+                "average": 98.38
             },
             {
                 "generation": 242,
                 "best": 100,
-                "average": 98.18
+                "average": 98.23
             },
             {
                 "generation": 243,
                 "best": 100,
-                "average": 98.13
+                "average": 98.32
             },
             {
                 "generation": 244,
                 "best": 100,
-                "average": 97.93
+                "average": 98.13
             },
             {
                 "generation": 245,
                 "best": 100,
-                "average": 98.06
+                "average": 98.34
             },
             {
                 "generation": 246,
                 "best": 100,
-                "average": 97.86
+                "average": 98.22
             },
             {
                 "generation": 247,
                 "best": 100,
-                "average": 98.0
+                "average": 98.36
             },
             {
                 "generation": 248,
                 "best": 100,
-                "average": 98.18
+                "average": 98.27
             },
             {
                 "generation": 249,
                 "best": 100,
-                "average": 98.27
+                "average": 98.32
             },
             {
                 "generation": 250,
                 "best": 100,
-                "average": 98.25
+                "average": 98.34
             },
             {
                 "generation": 251,
                 "best": 100,
-                "average": 98.31
+                "average": 98.35
             },
             {
                 "generation": 252,
                 "best": 100,
-                "average": 98.46
+                "average": 98.52
             },
             {
                 "generation": 253,
                 "best": 100,
-                "average": 98.48
+                "average": 98.52
             },
             {
                 "generation": 254,
                 "best": 100,
-                "average": 98.33
+                "average": 98.3
             },
             {
                 "generation": 255,
                 "best": 100,
-                "average": 98.31
+                "average": 98.24
             },
             {
                 "generation": 256,
                 "best": 100,
-                "average": 98.28
+                "average": 98.2
             },
             {
                 "generation": 257,
                 "best": 100,
-                "average": 98.27
+                "average": 98.24
             },
             {
                 "generation": 258,
                 "best": 100,
-                "average": 98.56
+                "average": 98.52
             },
             {
                 "generation": 259,
                 "best": 100,
-                "average": 98.4
+                "average": 98.37
             },
             {
                 "generation": 260,
                 "best": 100,
-                "average": 98.24
+                "average": 98.26
             },
             {
                 "generation": 261,
                 "best": 100,
-                "average": 97.97
+                "average": 98.0
             },
             {
                 "generation": 262,
                 "best": 100,
-                "average": 98.32
+                "average": 98.36
             },
             {
                 "generation": 263,
                 "best": 100,
-                "average": 98.28
+                "average": 98.32
             },
             {
                 "generation": 264,
                 "best": 100,
-                "average": 98.34
+                "average": 98.28
             },
             {
                 "generation": 265,
                 "best": 100,
-                "average": 98.31
+                "average": 98.29
             },
             {
                 "generation": 266,
                 "best": 100,
-                "average": 98.28
+                "average": 98.22
             },
             {
                 "generation": 267,
                 "best": 100,
-                "average": 98.29
+                "average": 98.13
             },
             {
                 "generation": 268,
                 "best": 100,
-                "average": 98.32
+                "average": 98.2
             },
             {
                 "generation": 269,
                 "best": 100,
-                "average": 98.52
+                "average": 98.38
             },
             {
                 "generation": 270,
                 "best": 100,
-                "average": 98.62
+                "average": 98.56
             },
             {
                 "generation": 271,
                 "best": 100,
-                "average": 98.6
+                "average": 98.59
             },
             {
                 "generation": 272,
                 "best": 100,
-                "average": 98.86
+                "average": 98.87
             },
             {
                 "generation": 273,
                 "best": 100,
-                "average": 98.67
+                "average": 98.68
             },
             {
                 "generation": 274,
                 "best": 100,
-                "average": 98.7
+                "average": 98.72
             },
             {
                 "generation": 275,
                 "best": 100,
-                "average": 98.72
+                "average": 98.74
             },
             {
                 "generation": 276,
@@ -1391,37 +1391,37 @@
             {
                 "generation": 277,
                 "best": 100,
-                "average": 98.58
+                "average": 98.57
             },
             {
                 "generation": 278,
                 "best": 100,
-                "average": 98.44
+                "average": 98.43
             },
             {
                 "generation": 279,
                 "best": 100,
-                "average": 98.36
+                "average": 98.34
             },
             {
                 "generation": 280,
                 "best": 100,
-                "average": 98.37
+                "average": 98.27
             },
             {
                 "generation": 281,
                 "best": 100,
-                "average": 98.3
+                "average": 98.28
             },
             {
                 "generation": 282,
                 "best": 100,
-                "average": 98.44
+                "average": 98.43
             },
             {
                 "generation": 283,
                 "best": 100,
-                "average": 98.46
+                "average": 98.44
             },
             {
                 "generation": 284,
@@ -1431,42 +1431,42 @@
             {
                 "generation": 285,
                 "best": 100,
-                "average": 98.41
+                "average": 98.39
             },
             {
                 "generation": 286,
                 "best": 100,
-                "average": 98.33
+                "average": 98.36
             },
             {
                 "generation": 287,
                 "best": 100,
-                "average": 98.39
+                "average": 98.36
             },
             {
                 "generation": 288,
                 "best": 100,
-                "average": 98.29
+                "average": 98.28
             },
             {
                 "generation": 289,
                 "best": 100,
-                "average": 98.54
+                "average": 98.5
             },
             {
                 "generation": 290,
                 "best": 100,
-                "average": 98.52
+                "average": 98.45
             },
             {
                 "generation": 291,
                 "best": 100,
-                "average": 98.43
+                "average": 98.38
             },
             {
                 "generation": 292,
                 "best": 100,
-                "average": 98.66
+                "average": 98.64
             },
             {
                 "generation": 293,
@@ -1476,38 +1476,38 @@
             {
                 "generation": 294,
                 "best": 100,
-                "average": 98.55
+                "average": 98.51
             },
             {
                 "generation": 295,
                 "best": 100,
-                "average": 98.63
+                "average": 98.56
             },
             {
                 "generation": 296,
                 "best": 100,
-                "average": 98.56
+                "average": 98.51
             },
             {
                 "generation": 297,
                 "best": 100,
-                "average": 98.57
+                "average": 98.61
             },
             {
                 "generation": 298,
                 "best": 100,
-                "average": 98.61
+                "average": 98.63
             },
             {
                 "generation": 299,
                 "best": 100,
-                "average": 98.56
+                "average": 98.62
             }
         ]
     },
     "knapsack": {
         "best_fitness": 3709,
-        "runtime": 1.5754129886627197,
+        "runtime": 1.0081102848052979,
         "history": [
             {
                 "generation": 0,

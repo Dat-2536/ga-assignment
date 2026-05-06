@@ -22,7 +22,5 @@ class TournamentSelection(SelectionStrategy):
     def select(self, population):
         if not population:
             return None
-        # Select k random individuals from the population
         participants = random.sample(population, min(self._k, len(population)))
-        # Return the one with the highest fitness
         return max(participants, key=lambda x: x.fitness)

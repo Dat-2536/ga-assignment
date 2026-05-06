@@ -7,6 +7,19 @@ from src import (
     OnePointCrossover, 
     BitFlipMutation
 )
+from src.population import Population
+
+class TestPopulationEncapsulation(unittest.TestCase):
+    def test_individuals_immutability(self):
+        problem = OneMax(length=10)
+        pop = Population(size=5, chromosome_length=10, problem=problem)
+        
+        inds = pop.individuals
+        
+        self.assertIsInstance(inds, tuple)
+        
+        with self.assertRaises(TypeError):
+            inds[0] = "mutated"
 
 class TestGAImprovement(unittest.TestCase):
     """
@@ -30,9 +43,7 @@ class TestGAImprovement(unittest.TestCase):
         first_gen_best = history[0]['best']
         last_gen_best = history[-1]['best']
         
-        # Fitness should improve or at least stay same due to elitism
         self.assertGreaterEqual(last_gen_best, first_gen_best)
-        # In 20 generations for OneMax(50), it should definitely improve
         self.assertGreater(last_gen_best, first_gen_best)
 
     def test_ga_generations_count(self):

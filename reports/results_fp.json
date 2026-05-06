@@ -1,7 +1,7 @@
 {
     "onemax": {
         "best_fitness": 100,
-        "runtime": 2.1978797912597656,
+        "runtime": 1.4389770030975342,
         "history": [
             {
                 "generation": 0,
@@ -1507,7 +1507,7 @@
     },
     "knapsack": {
         "best_fitness": 3725,
-        "runtime": 2.7073230743408203,
+        "runtime": 2.1310813426971436,
         "history": [
             {
                 "generation": 0,

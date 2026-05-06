@@ -12,7 +12,7 @@ def run_ga_experiment(problem, name):
     
     selection = TournamentSelection(k=3)
     crossover = OnePointCrossover(probability=0.9)
-    mutation = BitFlipMutation() # Default is 1/L
+    mutation = BitFlipMutation()
     
     ga = GeneticAlgorithm(
         problem=problem,
@@ -35,22 +35,17 @@ def run_ga_experiment(problem, name):
     }
 
 if __name__ == "__main__":
-    # Ensure random seed is 42
     random.seed(42)
     
-    # Initialize problems
     onemax_problem = OneMax(length=100)
     knapsack_problem = Knapsack(n=100, capacity_ratio=0.4, seed=42)
     
     results = {}
     
-    # Run experiments
     results["onemax"] = run_ga_experiment(onemax_problem, "OneMax")
     results["knapsack"] = run_ga_experiment(knapsack_problem, "Knapsack")
     
-    # Save to reports/results_oop.json
     report_path = os.path.join("..", "reports", "results_oop.json")
-    # If running from root, path is different. Let's handle both.
     if not os.path.exists("../reports") and os.path.exists("reports"):
         report_path = os.path.join("reports", "results_oop.json")
         

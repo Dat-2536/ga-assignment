@@ -10,21 +10,20 @@ class Population:
         self._problem = problem
         self._individuals = []
         
-        # Initialize with random individuals
         for _ in range(size):
             genes = [random.randint(0, 1) for _ in range(chromosome_length)]
             chromosome = Chromosome(genes)
-            # Initial evaluation
             chromosome.fitness = self._problem.evaluate(chromosome.genes)
             self._individuals.append(chromosome)
 
     @property
     def individuals(self):
-        return self._individuals
+        """Returns an immutable view of the population to maintain encapsulation."""
+        return tuple(self._individuals)
 
-    @individuals.setter
-    def individuals(self, value):
-        self._individuals = value
+    def replace(self, new_individuals):
+        """Replaces the entire population with a new set of individuals safely."""
+        self._individuals = list(new_individuals)
 
     def get_best(self):
         """Returns the best individual in the population."""

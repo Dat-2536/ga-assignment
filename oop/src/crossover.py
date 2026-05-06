@@ -21,7 +21,6 @@ class OnePointCrossover(CrossoverStrategy):
         self._probability = probability
 
     def crossover(self, parent1, parent2):
-        # With probability P, perform crossover
         if random.random() < self._probability:
             length = len(parent1)
             if length < 2:
@@ -37,5 +36,4 @@ class OnePointCrossover(CrossoverStrategy):
             
             return Chromosome(child1_genes), Chromosome(child2_genes)
         
-        # Otherwise, return copies of parents
         return Chromosome(parent1.genes), Chromosome(parent2.genes)

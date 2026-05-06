@@ -32,10 +32,9 @@ def bitflip_mutation(chromosome, prob=None, seed=None):
     p = prob if prob is not None else 1.0 / len(chromosome)
     return tuple(1 - g if rng.random() < p else g for g in chromosome)
 
-def evolve_generation(population, fitness_func, selection_op, crossover_op, mutation_op, elitism_count=2, seed=None):
+def evolve_generation(population, fitnesses, selection_op, crossover_op, mutation_op, elitism_count=2, seed=None):
     """Evolves the population to the next generation using functional style."""
     rng = random.Random(seed)
-    fitnesses = tuple(map(fitness_func, population))
     sorted_indices = sorted(range(len(population)), key=lambda i: fitnesses[i], reverse=True)
     elites = tuple(population[i] for i in sorted_indices[:elitism_count])
     
@@ -57,7 +56,7 @@ def run_ga_fp(initial_pop, fitness_func, selection_op, crossover_op, mutation_op
         current_pop, history = state
         fitnesses = tuple(map(fitness_func, current_pop))
         new_history = history + ({"generation": gen_idx, "best": max(fitnesses), "average": sum(fitnesses)/len(fitnesses)},)
-        next_pop = evolve_generation(current_pop, fitness_func, selection_op, crossover_op, mutation_op, seed=rng.random())
+        next_pop = evolve_generation(current_pop, fitnesses, selection_op, crossover_op, mutation_op, seed=rng.random())
         return next_pop, new_history
 
     final_pop, full_history = reduce(generation_step, range(generations), (initial_pop, ()))
